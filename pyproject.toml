@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "intern"
+version = "0.0.0"
+description = "Package intern interns strings."
+readme = "README.md"
+license = { file = "LICENSE.md" }
+requires-python = ">=3.7"
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/josharian/intern"
+
+[tool.setuptools.packages.find]
+include = ["intern*"]
